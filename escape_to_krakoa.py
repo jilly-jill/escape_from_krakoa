@@ -96,8 +96,10 @@ def story():
     if narr == 'F':
         fight()
     else:
-        input("Please select either 'F' for fight or 'R' to run")
-    
+        redo = input("Please select either 'F' for fight or 'R' to run").upper()
+        if redo == 'R':
+            print('NGL - Working on this branch so hey good job! Violence is not the answer - you win!'+ win())
+
 
 def character_select():
     # call global variables to be set by user input
