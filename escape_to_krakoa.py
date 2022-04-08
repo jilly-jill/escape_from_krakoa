@@ -70,8 +70,8 @@ def fight():
                 cd = str(calc_damage) #stringify damage
                 print(f"{char} attacks with {secondary}\n")
                 print("The attack was SUCCESSFUL!\n",
-                      f"{char} dealt {cd} damage!\n",
-                      f"{char} Health: {p_health}\n")
+                    f"{char} dealt {cd} damage!\n",
+                    f"{char} Health: {p_health}\n")
             elif mutant_secondary == cpu_defense: #if tie
                 print(f"{char} it's a deadlock! You need to strike again!\n")
             else:
@@ -79,8 +79,8 @@ def fight():
                 cd = str(calc_damage) #stringify
                 print(f"{char} attacks with {secondary}\n")
                 print("The attack was UNSUCCESSFUL!\n",
-                      f"{char_sel}  was dealt {cd} damage!\n",
-                      f"{char_sel} Health: {p_health}\n")
+                    f"{char_sel}  was dealt {cd} damage!\n",
+                    f"{char_sel} Health: {p_health}\n")
         count =+ 1
         if count >= 3:
             break    
